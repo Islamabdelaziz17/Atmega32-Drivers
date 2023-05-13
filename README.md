@@ -1,1 +1,3 @@
 # Atmega32-Drivers
+
+This repository provides the complete Micro-Controller Abstraction Layer (MCAL) of the ATmega32 microcontroller of the AVR family, Covering all built-in peripherals. A Hardware Abstraction Layer (HAL) accompanies, built upon the MCAL, and provides interfaces to many useful device modules.  Each driver in either the MCAL or HAL may consist of one or more of the following files:  Module.h, the header file of a driver, providing an interface to the layer above in the hierarchy. Module.c, the source file of a driver. Module_Priv.h, the private header file of a driver, to be included by driver-associated files only. Module_Cfg.h, the configuration header file of a driver. Module_Cfg.c, the configuration source file of a driver.
